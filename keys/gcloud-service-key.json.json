@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dental-voice-system",
+  "private_key_id": "6e5cfd56f97b1c2a1cf0384c36d4e0526a87aae9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCJhcbsB0ZzqrdO\n400qSuPdfEZeRIbYdI2psG0IrLswp/lR4RHEitCpoGgRo0WyyJ3MIXTPRtjvlnd5\nJpLxhmZDaIH+cAY9zHrEik94Cn1V6juEln+rRYpp+6Zc7OwRtU7YKK2XuxUIPFh6\nLNvf7ttaXs8gwo86c8BTYNWrasglyaah8k39grLDSglTMcK/Q0qgOucPyyp4RY5f\nJlnYZuWJX05ocAx40fxKBYi+qOc9vU30BroYfrf7Qys6t/kFHxGRUU19ond+n7Kw\nrS3s9Php7inZWcG42MrdyZrDwpngusNX6MGBg5+Xbty4+W8DtbHGKzbEFdENr9C/\nliVtAROBAgMBAAECggEAAoTZ3KtnxzPD4/TxDiVX20/3gv+wKklSP0mHvxOuNxPb\nPXxzpJ0NTuTCWzuuybmifaF0QAgHw7Wxbl2TmKByAZSUYvp0JtAhbzWrAyN1YcGR\nVwT3BYZXz3KoUgXrRLTEjbGLDR8vDAWnnOSdn2etirrMrPMwspekWMf1NKIB/1fV\nbu778ThZCI2PHoyZilY4exkhHaUWMomv6svddzTfUhVNub/Koe0dejiyTg0Ulky7\ncIpawdFgGTz89rd1Ub+2MEAfaQELprYDYYSDHInvFRqvySQvH3ojfI+EUvXuOtwR\nxN2xzrEmxTukGrqov01IPkjIFkf/6F10Amrcfj7ElQKBgQC8ct/wxTaqVz7HwhB7\nRpcEkeEKBWh74kZpFGijliI0HLKVj3iq5YYbQ7e1hzPhutDiOjZaqZxG4tPE4LLj\nbEHvvmS76w8u+4SPtSnNNVwNAU/mREBBtPPNBlxZzyYKnt5cqf+AMeMiWq3q32SF\nF0621enSLh8mSFxTftdgTnk6LQKBgQC60aDiJL1cl35ckw5Qx4p+QMNqrNP96NrP\n9MpqhM3iUtyRhoUrpTp7vlhgMwVZz1gsHc4tPrH6iNuM31LT1WMktgOw12DwT204\nzKeNEHIZKZQIgr9725qSYy6UgS8ZYywUTc9g05cB1pFsLot7aP4iyTlDYAIbdDFg\ndHhp22w3JQKBgH42Xd/O5dbeSfDV+93koD5ySYtBpgHawZedEJwHcG8AjWb3yTSE\nNvZJu1975vaW/VGW9VJxaHZdcsHYUFda6SpdlO/69Zdc4yKwjgefZkBbkZzCN1sK\ni4LUcMPBplPUpU7gmHvObbZTj0nQRm2Q96oiyNB5DWnBavyM5kjdJfodAoGAVUlk\nODlrlXy3vE2KSIiACllInUefVBhc5Hkte2l7kGohtfICk8VPqLRiJjDErZaB+0n0\nGSW5HNYj3PELIBgXtee+UZpR8ANiqn6Ls1OhsykPIr+F6WZ8732GA1fih6WFtxM6\nrEqMctNg+lFZbhKlin3wvXh0HdJyxEUHv9PjWF0CgYEAoNqSVidhNOtRbZmp9fHA\nfZ+W49z3Jqu0Ukxefc/3KWkv+LUMI9y8PDwfrictKE5zXlN+4TZBFo5AVKGrH58g\nCC0a1NghaWrsdYDdTOzPNaVHcKIjZUalNgDVepInAU5e8oKPOHMSVGlYtGKTCAeO\nnLZFNkY0SFtEfObKle2i5jw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dental-voice-service-accou-738@dental-voice-system.iam.gserviceaccount.com",
+  "client_id": "103791152255683956773",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dental-voice-service-accou-738%40dental-voice-system.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
