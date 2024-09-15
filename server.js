@@ -3,6 +3,17 @@ const cors = require('cors');
 const axios = require('axios');
 const http = require('http');
 const WebSocket = require('ws');
+
+const speech = require('@google-cloud/speech');
+
+const credentials = {
+    // insert credentials here //
+};
+
+const speechClient = new speech.SpeechClient({
+  credentials: credentials
+});
+
 const app = express();
 const port = 5000;
 
@@ -94,6 +105,7 @@ wss.on('connection', (ws) => {
   const processSummarization = async () => {
     try {
       if (hasNewTranscription && conversationHistory) {
+        console.log("Processing new transcription content.");
         // Summarize the current conversation history
         aiSummary = await summarizeWithChatGPT(conversationHistory);
 
@@ -102,6 +114,7 @@ wss.on('connection', (ws) => {
 
         // Send the updated summary back to the client (UI)
         ws.send(JSON.stringify({ transcription: aiSummary }));
+        console.log("AI Summary Sent:", aiSummary);
       }
     } catch (error) {
       console.error('Error during summarization:', error);
@@ -118,6 +131,7 @@ wss.on('connection', (ws) => {
   ws.on('message', (message) => {
     // Append the incoming transcription to the conversation history
     conversationHistory += message.toString();
+    
 
     // Mark that there's new transcription content
     hasNewTranscription = true;
